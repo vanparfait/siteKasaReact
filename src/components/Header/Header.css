@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1240px;
+  height: 68px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.lien1,
+.lien2 {
+  text-decoration: none;
+  color: red;
+  margin-left: 40px;
+}
+nav .active {
+  border-bottom: 2px solid red;
+}

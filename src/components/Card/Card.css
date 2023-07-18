@@ -1,0 +1,30 @@
+.Card {
+  width: 1240px;
+  margin: 0 auto;
+  background: #f6f6f6;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Card img {
+  width: 370px;
+  height: 340px;
+  margin: 20px;
+  border-radius: 15px;
+}
+.Card h1 {
+  position: absolute;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 55px;
+  bottom: 55px;
+  width: 150px;
+  height: 52px;
+}
+.CardContainer {
+  position: relative;
+}

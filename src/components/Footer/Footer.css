@@ -1,0 +1,28 @@
+.Footer {
+  width: 1240px;
+  height: 209px;
+  margin: 0 auto;
+  background-color: black;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterKasa {
+  filter: brightness(10);
+  margin-top: 50px;
+}
+
+.Footer p {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-top: 45px;
+}

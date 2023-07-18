@@ -1,0 +1,39 @@
+.Error {
+  justify-content: center;
+  align-items: center;
+  color: red;
+  display: flex;
+  flex-direction: column;
+}
+.Error h1 {
+  font-family: Montserrat;
+  font-size: 288px;
+  font-weight: 700;
+  line-height: 411px;
+  letter-spacing: 0em;
+  /* text-align: center; */
+  width: 597px;
+  height: 263px;
+  margin-top: 80px;
+  margin-left: 120px;
+  margin-bottom: 150px;
+}
+.Error h2 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 51px;
+  letter-spacing: 0em;
+}
+.Error .retour {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  text-decoration: none;
+  color: red;
+  margin-top: 100px;
+}
