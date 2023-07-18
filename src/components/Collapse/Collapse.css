@@ -1,0 +1,35 @@
+.Collapse {
+  position: relative;
+  width: 1023px;
+  margin: 0 auto;
+  color: white;
+  background-color: red;
+  margin-bottom: 15px;
+}
+.Collapse h1 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  margin: 3px 0 0 10px;
+}
+
+.Collapse img {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 5px;
+  left: 90%;
+  filter: brightness(10%);
+  cursor: pointer;
+}
+
+.Collapse p {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #ff6060;
+  background-color: #f6f6f6;
+  padding: 15px;
+}

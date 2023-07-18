@@ -12,6 +12,10 @@
   margin: 20px;
   border-radius: 15px;
 }
+
+.Card img:hover {
+  scale: 1.04;
+}
 .Card h1 {
   position: absolute;
   font-family: Montserrat;
