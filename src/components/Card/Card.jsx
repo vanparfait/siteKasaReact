@@ -3,7 +3,7 @@ import "./Card.css";
 import { datas } from "../../data/data";
 import { Link } from "react-router-dom";
 
-const Card = () => {
+const Card = ({ idCard }) => {
   return (
     <div className="Card">
       {datas.map((data) => (

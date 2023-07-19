@@ -38,7 +38,7 @@ const Carousel = ({ images }) => {
           />{" "}
         </button>
       )}
-      <img src={images[currentIndex].cover} alt="Slide" />
+      <img src={images[currentIndex]} alt="Slide" className="carousselImg" />
       <span>
         {currentIndex}/ {images.length}
       </span>

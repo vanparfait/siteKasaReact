@@ -7,28 +7,32 @@
 
 .carousel .icone1,
 .icone2 {
-  width: 50px;
+  width: 35px;
   z-index: 3;
 }
 .carousel .icone2 {
   position: absolute;
-  top: 100%;
+  top: 60%;
   left: 10%;
 }
 .carousel .icone1 {
   position: absolute;
-  top: 100%;
-  left: 90%;
+  top: 60%;
+  left: 87%;
 }
 
-.carousel img {
+.carousel .carousselImg {
   position: relative;
+  height: 400px;
+  width: 1240px;
+  object-fit: cover;
+  border-radius: 25px;
 }
 .carousel span {
   position: absolute;
   z-index: 2;
   left: 50%;
-  bottom: -40%;
-  color: white;
-  font-size: bold;
+  bottom: 1px;
+  color: red;
+  font-size: 25px;
 }
