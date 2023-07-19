@@ -14,13 +14,10 @@
 .Banner h1 {
   position: absolute;
   color: white;
-  /* filter: brightness(19); */
-
   top: 70px;
   left: 350px;
   font-family: Montserrat;
   font-size: 48px;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 68px;
-  letter-spacing: 0em;
 }

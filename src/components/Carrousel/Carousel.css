@@ -1,0 +1,34 @@
+.carousel {
+  /* position: relative; */
+  border: 1px solid blue;
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.carousel .icone1,
+.icone2 {
+  width: 50px;
+  z-index: 3;
+}
+.carousel .icone2 {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+}
+.carousel .icone1 {
+  position: absolute;
+  top: 100%;
+  left: 90%;
+}
+
+.carousel img {
+  position: relative;
+}
+.carousel span {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: -40%;
+  color: white;
+  font-size: bold;
+}
