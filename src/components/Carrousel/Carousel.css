@@ -1,8 +1,9 @@
 .carousel {
-  /* position: relative; */
-  border: 1px solid blue;
   width: 1240px;
+  height: 400px;
   margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .carousel .icone1,
@@ -12,12 +13,12 @@
 }
 .carousel .icone2 {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 10%;
 }
 .carousel .icone1 {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 87%;
 }
 
@@ -32,7 +33,8 @@
   position: absolute;
   z-index: 2;
   left: 50%;
-  bottom: 1px;
+  bottom: 0px;
+
   color: red;
   font-size: 25px;
 }

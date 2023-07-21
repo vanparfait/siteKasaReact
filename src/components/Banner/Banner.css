@@ -2,7 +2,7 @@
   position: relative;
   width: 1240px;
   height: 223px;
-  filter: brightness(50%);
+  /* filter: brightness(50%); */
   margin: 40px auto;
 }
 .Banner img {
@@ -15,7 +15,7 @@
   position: absolute;
   color: white;
   top: 70px;
-  left: 350px;
+  left: 390px;
   font-family: Montserrat;
   font-size: 48px;
   font-weight: bold;

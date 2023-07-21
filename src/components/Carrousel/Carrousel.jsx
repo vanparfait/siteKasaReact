@@ -40,7 +40,7 @@ const Carousel = ({ images }) => {
       )}
       <img src={images[currentIndex]} alt="Slide" className="carousselImg" />
       <span>
-        {currentIndex}/ {images.length}
+        {currentIndex}/ {images.length - 1}
       </span>
       {images.length > 1 && (
         <button onClick={nextSlide}>

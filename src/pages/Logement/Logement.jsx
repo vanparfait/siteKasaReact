@@ -72,10 +72,10 @@ const Logement = () => {
         </div>
         <div className="accomodation_collapse">
           <div className="accomodation_collapse_item1">
-            <Collapse title={"Description"} response={description} />
+            <Collapse title="Description" data={description} />
           </div>
           <div className="accomodation_collapse_item2">
-            <Collapse title="Équipements" response={equipements} />
+            <Collapse title="Équipements" data={equipements} />
           </div>
         </div>
       </div>
